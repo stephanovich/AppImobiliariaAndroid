@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_crud"
+    app:startDestination="@id/viewFragment">
+
+    <fragment
+        android:id="@+id/viewFragment"
+        android:name="com.example.tp1imob.fragments.ViewFragment"
+        android:label="fragment_view"
+        tools:layout="@layout/fragment_view" />
+    <fragment
+        android:id="@+id/deleteFragment"
+        android:name="com.example.tp1imob.fragments.DeleteFragment"
+        android:label="fragment_delete"
+        tools:layout="@layout/fragment_delete" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.tp1imob.fragments.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+</navigation>

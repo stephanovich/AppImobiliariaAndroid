@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaryBackground"
+    tools:context=".fragments.EditFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/cepTextex"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="CEP"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/ediTextCepDetail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/dsada"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:text="Identificação"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/identEdit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/sdas"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Rua"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/ruaEdit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/bsdgbs"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Numero"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/numeroEdit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/bairrotexte"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Bairro"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/ediTextBairoEdit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/khjkhjk"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Complemento"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/complementoEdit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/kljljk"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Cidade"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/cidadeEdit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:id="@+id/tyryr"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Estado"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/estadoEdit"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/saveEditBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_save_black_24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.954"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
